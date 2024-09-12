@@ -34,6 +34,7 @@ public class Employee {
 	private Gender gender;
 	private LocalDate employedDate;
 	private LocalDate dateOfBirth;
+	private double salary;
 	@ManyToOne
 	@JoinColumn(name = "department_id")
 	private Department department;
